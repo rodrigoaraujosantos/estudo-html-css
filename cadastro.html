@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form>
+    <div>
+      <label for="campoNome">Nome completo</label><br>
+      <input type="text" id="campoNome" name="campoNome" placeholder="Seu nome" required>
+    </div><br>
+    <div>
+      <label for="campoEmail">Email</label><br>
+      <input type="email" id="campoEmail" name="campoEmail" placeholder="usuario@exemplo.com" required>
+    </div><br>
+    <div>
+      <label for="campoSenha">Senha</label><br>
+      <input type="password" id="campoSenha" name="campoSenha" placeholder="Sua senha" required minlength="8">
+    </div><br>
+    <div>
+      <label for="campoProfissao">Profissão</label><br>
+      <select name="campoProfissao" id="campoProfissao">
+        <option selected disabled>Selecione uma opção</option>
+        <option value="Dev">Dev</option>
+        <option value="Analista">Analista</option>
+        <option value="Redes">Redes</option>
+        <option value="nda">Nenhuma das opções</option>
+      </select>
+    </div><br>
+    <div>
+      <label>Idioma nativo</label><br>
+      
+      <input type="radio" id="checkIngles" name="campoIdioma" value="inglês">
+      <label for="checkIngles">Inglês</label>
+
+      <input type="radio" id="checkEspanhol" name="campoIdioma" value="Espanhol">
+      <label for="checkEspanhol">Espanhol</label>
+
+      <input type="radio" id="checkPortugues" name="campoIdioma" value="Portugues">
+      <label for="checkPortugues">Português</label>
+
+    </div><br>
+    <div>
+      <label for="campoResumo">Fale sobre você</label><br>
+      <textarea name="campoResumo" id="campoResumo" cols="30" rows="10" minlength="2" maxlength="10" placeholder="Escreva sobre sua vida profissional" required></textarea>
+    </div><br>
+    <div>
+      <input type="checkbox" id="checkTermos" name="concordaTermos" required>
+      <label for="checkTermos">Concordo com os termos de serviço</label>
+    </div>
+    <hr>
+    <button type="submit">Enviar</button>
+    <button type="reset">Limpar</button>
+    <button type="button" onclick="alert('Oi')">Outra ação</button>
+  </form>
+</body>
+</html>
