@@ -1,0 +1,44 @@
+p {
+color: green;
+font-size: 100;
+text-decoration: underline;
+}
+
+body {
+  background-color: black;
+  font-family: 'Montserrat', sans-serif
+}
+
+/*Tipos de seletores
+1) Por elemento
+2) Por Id (#) Estilização única
+3) Por class (.) Estilização para vários
+*/
+
+h1 {
+  color: azure;
+}
+
+#meuh2 {
+  color: aqua;
+}
+
+.cabecalho {
+  color: blueviolet;
+  text-decoration: underline;
+  font-weight: 900;
+}
+
+.quadrado {
+  width: 150px;
+  height: 150px;
+  border-radius: 32px;
+  background-color: yellowgreen;
+  margin-left: 335px;
+}
+
+.banner {
+  margin-left: 200px;
+  margin-top: 10px;
+  border-radius: 130px;
+}
