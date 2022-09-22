@@ -1,0 +1,28 @@
+body {
+  background-color: aquamarine;
+}
+
+#topo {
+  text-align: center;
+}
+
+#h3textimg {
+  margin-left: 430px;
+}
+
+#topo {
+  text-decoration: none;
+}
+
+#aimg {
+  text-decoration: none;
+  
+}
+
+#dimg {
+  margin-left: 150px;
+}
+
+li {
+  list-style-type: none;
+}
