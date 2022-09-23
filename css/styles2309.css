@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+} /*Se aplica em todos os elementos*/
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.my-button {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  border-radius: 7px;
+  font-size: 16px;
+  margin: 6px 4px;
+  cursor: pointer;
+  
+}
+
+.my-button:hover {
+  background-color: blueviolet;
+}
+
+.button-azul {
+  background-color: blue;
+}
+
+.my-table {
+  width: 400px;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+.my-table td, .my-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.my-table th {
+  background-color: cornflowerblue;
+  padding: 12px;
+  color: white;
+}
+
+.my-table tr:hover {
+  background-color: #ddd;
+}
+/*Se aplica aos elementos par*/
+.my-table tr:nth-child(even):hover {
+  background-color: #f2f2f2;
+}
+
+.my-table td {
+  text-align:center;
+  height: 50px;
+}
+
+.my-form {
+  background-color: #ddd;
+  padding: 20px 16px;
+  width: 300px;
+  margin: auto;
+  
+}
+
+.my-form h3 {
+  background-color:cornflowerblue;
+  color: white;
+}
+
+.my-form input {
+  width: 100%;
+  padding: 12px 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin:auto;
+  margin-top: 3px;
+}
+
+.toda-largura {
+  width: 100%;
+  margin: 6px 0;
+}
+
+.my-form-group {
+  margin-bottom: 6px;
+}
+
+h3 {
+  text-align: center;
+  background-color: red;
+}
